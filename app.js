@@ -122,4 +122,5 @@ require('./config/auth')(passport)
   app.use('/usuarios', usuarios)
 //Outros
 const PORT = process.env.PORT || 8081
+console.log(PORT)
 app.listen(PORT, () => {console.log("Servidor rodando")})
